@@ -1,0 +1,42 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+header, nav, main, footer {
+    margin-bottom: 2rem;
+}
+
+nav {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+nav a {
+    margin-right: 15px;
+}
+
+article {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+/* Style for inline MathML */
+math[display="inline"] {
+  font-style: italic;
+}
+
+/* Style for block MathML */
+math[display="block"] {
+  display: block;
+  margin: 1.5em 0;
+  text-align: center;
+}
